@@ -44,5 +44,5 @@ We understand that stopping climate change is a global effort, and we are commit
 <a href="https://youtu.be/EowlqP3Hcwk" alt="Click to watch"><img src="https://user-images.githubusercontent.com/118198968/233844583-1fa548d4-f9ef-4f58-b21c-67250f57eee2.jpg" width = "50%" height="60%" align="center"></a>
 </p>
 <br><br><a href="https://info.flagcounter.com/i8vD"><img src="https://s11.flagcounter.com/count2/i8vD/bg_575757/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
-<b><u>Project Submitted to <a href"https://devpost.com/software/climate-catalyst-nkg68a">ClimateHacks</a> from me and my <a href="https://github.com/royishan2004">friend</a></u></b>
+<b><u>Project Submitted to <a href"https://devpost.com/software/climate-catalyst-nkg68a">ClimateHacks</a> from me and my <a href="https://github.com/royishan2004">friend</a></u></b><br><br>
 ![bottom](https://user-images.githubusercontent.com/118198968/233842437-8ee96422-3963-44a3-a222-6ace22246b8a.svg)
