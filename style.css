@@ -13,8 +13,14 @@
   --g1: rgb(98, 0, 234);
   --g2: rgb(236, 64, 122);
   --g3: rgb(200,60,100);
-  --spacing: 8vw;
+  --spacing: 3vw;
   --dark-bg: rgba(15, 15, 15, 0.95);
+  --forestgreen: rgb(34,139,34);
+  --junglegreen: rgb(41,171,135);
+  --green: rgb(76,187,23);
+  --rainforest: rgb(0, 117, 94);
+  --myrtle: rgb(49, 120, 115);
+  --persian: rgb(0, 166, 147);
 }
 
 @keyframes background-pan {
@@ -110,6 +116,26 @@
   line-height: 0.9em;
 }
 
+#title > .fancy > .magic{
+  display: inline-block;
+  position: relative;
+}
+
+#title > .fancy > .magic > .magic-text {
+  animation: background-pan 3s linear infinite;
+  background: linear-gradient(
+    to right,
+    var(--g1),
+    var(--g2),
+    var(--g3),
+    var(--g2)
+  );
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
+}
+
 #icon {
   color: rgba(255, 255, 255, 0.15);
   font-size: 80vmin;
@@ -121,7 +147,7 @@
 
 h2 {
   font-family: 'Space Mono', monospace;
-   
+  font-display:inherit;
   color: white;
   padding: 0rem clamp(1rem, 2vw, 3rem);
   border-radius: clamp(0.4rem, 0.75vw, 1rem);
@@ -317,9 +343,31 @@ main {
     line-height: 1.5;
     padding-right: 4vw;
     padding-left: 4vw;
-    position: static;
+    position:sticky;
+    
     text-align: justify;
     margin-bottom: var(--spacing);
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  
+  img {
+    max-width: 100%;
+    max-height:100%;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 1vh;
+    position: sticky;
+  }
+
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+    
+    float: left;
   }
 }
 
