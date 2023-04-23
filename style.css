@@ -12,6 +12,9 @@
   background-color: black;
   --g1: rgb(98, 0, 234);
   --g2: rgb(236, 64, 122);
+  --g3: rgb(200,60,100);
+  --spacing: 10vw;
+  --dark-bg: rgba(15, 15, 15, 0.95);
 }
 
 @keyframes background-pan {
@@ -101,7 +104,7 @@
 }
 
 #title > .fancy {
-  color: var(--g2);
+  color: var(--g3);
   font-family: 'Dancing Script', cursive;
   font-size: 1.5em;
   line-height: 0.9em;
@@ -306,6 +309,18 @@ main {
   {
     top: 0px;
   }
+  section {
+
+    padding: 1rem;
+    background: var(--dark-bg);
+    font-size: 1.25rem;
+    line-height: 1.5;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    position: static;
+    text-align: justify;
+    margin-bottom: var(--spacing);
+  }
 }
 
 .dark {
@@ -343,4 +358,12 @@ main {
 
 .solar #solarIcon {
   display: block;
+}
+
+.left {
+  grid-column: 4 / 12;
+}
+
+.right {
+  grid-column: 2 / 6;
 }
